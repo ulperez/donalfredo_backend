@@ -35,8 +35,6 @@ Sigue estos pasos para poner en marcha el proyecto en tu máquina local:
 git clone [https://github.com/ulperez/api_donalfredo]
 ````
 
-*(**Nota para ti, papu:** Recuerda cambiar `tu-usuario` por tu nombre de usuario de GitHub y `api_donalfredo` por el nombre exacto de tu repositorio si es diferente.)*
-
 ### 2\. Crear y Activar el Entorno Virtual
 
 Es **altamente recomendable** usar un entorno virtual para gestionar las dependencias del proyecto.
