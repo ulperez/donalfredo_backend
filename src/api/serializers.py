@@ -76,6 +76,7 @@ class ClienteSerializer(serializers.ModelSerializer):
     def validate_nro_socio(self, value):
         if value < 0:
             raise serializers.ValidationError({'nro_socio': 'El numero de socio no puede ser negativo'})
+        return value
 
     def validate_celular(self, value):
          celular_str = str(value)
